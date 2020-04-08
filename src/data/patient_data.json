@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "main-covid19-data-api",
+  "private_key_id": "b6b675279eace0be442b6be135e4aeecdc9c096d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCWemqk8HpqNaVa\niTVJ37GpVDZCPaPyXawTDhGeXczswYfFi0d/XPyHh1teTE12vuVKWnNtornhpYYe\nZ4fOXAqkHlCPWKnRa4kbK4p2BxcMYk4wEy5rSsYJXN7DHjtvaoQqP5Siraji0lfB\n0IZinmPdtzFtyH4A6juoYc3FgDzZtJgigwK9F0mC4Rh1w83DbDDz4guAdsMdnXTp\nEQA/X13iOCcYYglXIRX6AqoTLmuAnuKjktZRPy3TEucFiKNaMIoaiNeZEGlEXvHY\nrN1NcWfrIMjiMl3imrqHj9MDlrVMFsy1tO85qRgWjoT5hX8AE8PRCaRFp0Uc+cnz\n6HHXcPDNAgMBAAECggEABPVYsUGpTvmgjriptFr2IDXBqfIdBl32zxPuGbFOkNiZ\nsDU0MGqweYjIxnUuMkT9CjOrzQeJJ3nMTxErRO38fcbv8aFCyz9HX8lSASyfok1U\n9TmUlH18xA822egTnkq8uyWoMKoXQA4dTSohW3uLn+Eq9EqgeEg/mf9LCAB/QM8p\nIGSVEb0vRpm6hql0HDwJVh8ld8hRMoQScia6FDMk+QwO3PHxtQ79ggbEJIKWfAkS\nPJJdh5/jw/mw+96Q27yCfjXfToSBHjhBIujz0aOHnt5ax128QNv8gwnGo3yMmdtt\npm5WgxSJ6uQGUVk+NbsExBfyD2MP9Wg+g0UU01rWgQKBgQDUhEDYfnegMz4b+w7v\nrPRSQ6ObZFyxXShzsV8qO1AWHaYZ+tVH4GZ3I1rTDfKztb7BmqRFLuKEmlcDGuPR\napKVMgwdGA28/miH+wS+s+paB/hb892jNMokjojwCe7AdqqY8HGk70/nAwq4Vigz\nGDnqBomRKcGPYruV7D5FxnKMQQKBgQC1RI2+F7XjEYSfnI3GPNwXkl9S5YlyFxUL\n3DdKnVAp7kuG68iLSbemIIlag7HKVI9d81gt6ZaGRDzusnJ4ZeHbN4OaJ2l+1/eO\niUz9ZWKhQIQLSD8Ulbi2zpzTiHtQPmRCP/WXDwKYGd0ohrp3eXUleCUhtcFk0tE1\nsBt9ojFxjQKBgAMw2Shm/bTSECSraFYA6soxactzflDLbUgPabZgnZs3Zr8NHRav\nL9qqFTsGApbgK7UMdVr0kUIcbyIEzVbfmsPStIvbSJmF2FvyUOfsG6CubfQzfShu\nKnrSCQxRmdwZ7AXP1mT7kt+NFCQgZwodWwFAh+A+GEHm4ZomqeiyShYBAoGAFIiv\nhdkpwY86dtpFNS+vvvvV0I4wA7yZpb5MhSdM7XMRGzeagCzZoPgOlzJT8ZeipgHq\n+0h6xLr2LBQK45im/S5Muim8yaGtaXgkQJA7nAiy7JRCkRJk2lCNc2kCjxSCRv73\n0yTgJlrHss+QT/hyTMxPaIIuZj17dZl9g73b3AECgYEAp4urXaP8hn8CcSvh/U5m\n5Q08O+2SZAPQo705jqPXquaNIttbrVXC34NfFwU0FBmsZ6ZiLD+kMIQuv/9tDBhv\nVYwMOVqXlkOxmjvfXdmsjzNfxul7l182khVYbCzNPLn986cyEDs6+fmT3krHTLm4\nrgJHJMFYGDDVI9w7ZYEflkQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "patient-data-service@main-covid19-data-api.iam.gserviceaccount.com",
+  "client_id": "110938748761272105260",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/patient-data-service%40main-covid19-data-api.iam.gserviceaccount.com"
+}
