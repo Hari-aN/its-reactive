@@ -2,7 +2,7 @@
   "name": "its-reactive",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://haribhai.github.io/",
+  "homepage": "https://haribhai.github.io/its-reactive/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

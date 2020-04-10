@@ -23,37 +23,37 @@ const history = require("history").createBrowserHistory;
 function App() {
   const pages = [
     {
-      pageLink: "/",
+      pageLink: "/its-reactive",
       view: Home,
       displayName: "Home",
       animationDelayForNavbar: 0.2,
     },
     {
-      pageLink: "/window",
+      pageLink: "/its-reactive/window",
       view: Muhalla,
       displayName: "World-Window",
       animationDelayForNavbar: 0.2,
     },
     {
-      pageLink: "/patientsDB",
+      pageLink: "/its-reactive/patientsDB",
       view: PatientDB,
       displayName: "Patients DB",
       animationDelayForNavbar: 0.3,
     },
     {
-      pageLink: "/clusters",
+      pageLink: "/its-reactive/clusters",
       view: Cluster,
       displayName: "Clusters",
       animationDelayForNavbar: 0.4,
     },
     {
-      pageLink: "/links",
+      pageLink: "/its-reactive/links",
       view: Links,
       displayName: "Helpful Links",
       animationDelayForNavbar: 0.5,
     },
     {
-      pageLink: "/faq",
+      pageLink: "/its-reactive/faq",
       view: FAQ,
       displayName: "FAQ",
       animationDelayForNavbar: 0.6,
