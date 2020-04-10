@@ -12,18 +12,20 @@ import "./App.scss";
 import Home from "./components/home";
 import Navbar from "./components/navbar";
 import Links from "./components/links";
-import Cluster from "./components/cluster";
+import Cluster from "./components/mine/cluster";
 import FAQ from "./components/faq";
 import Banner from "./components/banner";
 import PatientDB from "./components/patientdb";
-import Muhalla from "./components/muhalla";
+import Muhalla from "./components/mine/muhalla";
+import Deepdive from "./components/deepdive";
+import Resources from "./components/resources";
 
 const history = require("history").createBrowserHistory;
 
 function App() {
   const pages = [
     {
-      pageLink: "/its-reactive",
+      pageLink: "/its-reactive/",
       view: Home,
       displayName: "Home",
       animationDelayForNavbar: 0.2,
@@ -32,13 +34,19 @@ function App() {
       pageLink: "/its-reactive/window",
       view: Muhalla,
       displayName: "World-Window",
-      animationDelayForNavbar: 0.2,
+      animationDelayForNavbar: 0.3,
     },
     {
-      pageLink: "/its-reactive/patientsDB",
+      pageLink: "/its-reactive/demographics",
       view: PatientDB,
-      displayName: "Patients DB",
+      displayName: "Demographics",
       animationDelayForNavbar: 0.3,
+    },
+    {
+      pageLink: "/its-reactive/deepdive",
+      view: Deepdive,
+      displayName: "Deep Dive",
+      animationDelayForNavbar: 0.4,
     },
     {
       pageLink: "/its-reactive/clusters",
@@ -57,6 +65,12 @@ function App() {
       view: FAQ,
       displayName: "FAQ",
       animationDelayForNavbar: 0.6,
+    },
+    {
+      pageLink: "/its-reactive/essentials",
+      view: Resources,
+      displayName: "Essentials",
+      animationDelayForNavbar: 0.7,
     },
   ];
 
@@ -80,6 +94,7 @@ function App() {
                     />
                   );
                 })}
+                <Redirect to="/" />
               </Switch>
             </div>
           )}
@@ -87,11 +102,6 @@ function App() {
       </Router>
 
       <footer className="fadeInUp" style={{ animationDelay: "2s" }}>
-        {/* <img
-          src="/icon.png"
-          alt="https://www.covid19india.org | Coronavirus cases live dashboard"
-        />*/}
-
         <h5>We stand with everyone fighting on the frontlines</h5>
         <div className="link">
           <a href="https://github.com/covid19india">covid19india</a>
