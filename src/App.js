@@ -23,7 +23,7 @@ const history = require("history").createBrowserHistory;
 function App() {
   const pages = [
     {
-      pageLink: "/its-reactive",
+      pageLink: "/",
       view: Home,
       displayName: "Home",
       animationDelayForNavbar: 0.2,
