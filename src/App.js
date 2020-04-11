@@ -33,7 +33,7 @@ function App() {
     {
       pageLink: "/its-reactive/window",
       view: Muhalla,
-      displayName: "World-Window",
+      displayName: "Global-Window",
       animationDelayForNavbar: 0.3,
     },
     {

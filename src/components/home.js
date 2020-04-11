@@ -219,8 +219,7 @@ function Home(props) {
           </div>
         )}
       </div>
-      <div className="home-right"></div>
-    */}
+      <div className="home-right"></div> */}
       </div>
 
       <div className="Home">
@@ -256,7 +255,7 @@ function Home(props) {
                 );
               })}
             <button className="button">
-              <Link to="/demographics">
+              <Link to="/its-reactive/demographics">
                 <Icon.Database />
                 <span>Demographic Overview</span>
               </Link>
