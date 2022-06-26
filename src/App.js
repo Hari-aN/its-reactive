@@ -26,7 +26,7 @@ function App() {
   const pages = [
     {
       pageLink: "/its-reactive/",
-      view: Home,
+      view: NewHome,
       displayName: "Home",
       animationDelayForNavbar: 0.2,
     },
