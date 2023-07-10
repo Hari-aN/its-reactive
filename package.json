@@ -21,7 +21,7 @@
     "install": "^0.13.0",
     "json2csv": "^5.0.0",
     "node-sass": "^4.13.1",
-    "npm": "^6.14.3",
+    "npm": "^9.8.0",
     "sass-lint": "^1.13.1",
     "topojson": "^3.0.2",
     "@material-ui/core": "^4.9.9",
